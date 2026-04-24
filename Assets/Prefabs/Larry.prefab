@@ -120,9 +120,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"dialog","value":null,"typeHandle":{"Identification":"UnityEngine.TextAsset,
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"dialog","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.TextAsset,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _objectReferences:
+    - {fileID: 4900000, guid: b61d98705d6c2c74eb9e2559855ad3c8, type: 3}
 --- !u!114 &240101790015622136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138,4 +139,4 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: b288d75c12a257b49a52468ba6678b7e, type: 2}
+    - {fileID: 11400000, guid: 5f4b5f54d18195e4bb5b19dce4f9a6f7, type: 2}
